@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h2>Dashboard</h2>
+<div class="cards">
+    <div class="card">
+        <h3>{{ total_students }}</h3>
+        <p>Total Students</p>
+    </div>
+    <div class="card">
+        <h3>{{ present_today }}</h3>
+        <p>Present Today ({{ today }})</p>
+    </div>
+</div>
+{% endblock %}

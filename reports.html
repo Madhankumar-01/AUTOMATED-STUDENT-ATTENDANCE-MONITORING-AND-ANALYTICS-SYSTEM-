@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Reports{% endblock %}
+{% block content %}
+<h2>Attendance Analytics</h2>
+
+<h3>Overall Report</h3>
+<table>
+    <tr><th>Roll No</th><th>Name</th><th>Days Marked</th><th>Present</th><th>Attendance %</th></tr>
+    {% for r in report_data %}
+    <tr class="{{ 'low' if r.percentage < 75 else '' }}">
+        <td>{{ r.roll_no }}</td>
+        <td>{{ r.name }}</td>
+        <td>{{ r.total }}</td>
+        <td>{{ r.present }}</td>
+        <td>{{ r.percentage }}%</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h3>Defaulters (Below 75%)</h3>
+{% if defaulters %}
+<table>
+    <tr><th>Roll No</th><th>Name</th><th>Attendance %</th></tr>
+    {% for d in defaulters %}
+    <tr class="low">
+        <td>{{ d.roll_no }}</td>
+        <td>{{ d.name }}</td>
+        <td>{{ d.percentage }}%</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No defaulters found.</p>
+{% endif %}
+{% endblock %}
