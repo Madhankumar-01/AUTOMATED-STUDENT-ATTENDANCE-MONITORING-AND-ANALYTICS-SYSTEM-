@@ -6,7 +6,7 @@ Automated Student Attendance Monitoring and Analytic System
 Automated Student Attendance Monitoring and Analytic System is a web-based platform developed to simplify attendance tracking, monitoring, and performance analysis within educational institutions. The platform provides separate dashboards for Students, Teachers, and Administrators, enabling automated attendance recording, real-time analytics, alerts, and centralized reporting for improved academic administration.
 
 Features
-👨‍🎓 Student Module
+Student Module
 Secure Student Login
 View Dashboard
 View Attendance Records
@@ -16,7 +16,7 @@ Check Academic Information
 Submit Reports/Requests
 Profile Management
 
-👨‍🏫 Teacher Module
+ Teacher Module
 Secure Teacher Login
 Mark & Manage Student Attendance
 Automated Low-Attendance Alerts
@@ -25,7 +25,8 @@ Post Announcements
 View Student Information
 Generate Attendance Reports
 Profile Management
-👨‍💼 Admin Module
+
+Admin Module
 Secure Admin Login
 Manage Students
 Manage Teachers
@@ -34,7 +35,9 @@ View System-Wide Attendance Reports
 Attendance Analytics Dashboard (charts, trends, at-risk students)
 Automated Alerts & Notifications
 Database Management
-🛠️ Technologies Used
+
+
+Technologies Used
 Frontend
 
 HTML5
@@ -53,7 +56,10 @@ Development Tools
 Visual Studio Code
 XAMPP
 Git & GitHub
-📂 Project Structure
+
+
+
+Project Structure
 AttendanceMonitoringSystem/
 │
 ├── static/
@@ -73,7 +79,9 @@ AttendanceMonitoringSystem/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-⚙️ Installation
+
+
+Installation
 1. Clone the Repository
 bash
 git clone https://github.com/yourusername/AttendanceMonitoringSystem.git
@@ -104,7 +112,10 @@ bash
 python app.py
 8. Open the Browser
 http://127.0.0.1:5000/
-🎯 Project Objectives
+
+
+
+Project Objectives
 Automate the student attendance recording process.
 Reduce manual errors and paperwork in attendance management.
 Provide real-time attendance analytics for students, teachers, and admins.
@@ -112,18 +123,23 @@ Automatically flag students with low attendance for early intervention.
 Provide secure role-based access.
 Centralize academic and attendance-related information.
 Enhance efficiency and transparency in campus administration.
-🔐 User Roles
+
+
+User Roles
 Role	Access
 Student	View attendance, attendance analytics, announcements, profile
 Teacher	Mark attendance, view analytics, generate reports, alerts
 Admin	Full system management, analytics dashboard, and reporting
-📊 Analytics Highlights
+
+
+Analytics Highlights
 Attendance percentage calculation (overall & subject-wise)
 Attendance trend graphs (daily/weekly/monthly)
 Automated at-risk student identification (below threshold %)
 Class-wise and student-wise comparison reports
 Visual dashboards using charts for quick insights
-📈 Future Enhancements
+
+Future Enhancements
 Mobile Application
 QR Code / Biometric Attendance
 Push Notifications
