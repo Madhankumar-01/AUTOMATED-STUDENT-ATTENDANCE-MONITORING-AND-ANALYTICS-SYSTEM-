@@ -6,7 +6,11 @@ Automated Student Attendance Monitoring and Analytic System
 Automated Student Attendance Monitoring and Analytic System is a web-based platform developed to simplify attendance tracking, monitoring, and performance analysis within educational institutions. The platform provides separate dashboards for Students, Teachers, and Administrators, enabling automated attendance recording, real-time analytics, alerts, and centralized reporting for improved academic administration.
 
 Features
+
+
 Student Module
+
+
 Secure Student Login
 View Dashboard
 View Attendance Records
@@ -17,6 +21,8 @@ Submit Reports/Requests
 Profile Management
 
  Teacher Module
+
+
 Secure Teacher Login
 Mark & Manage Student Attendance
 Automated Low-Attendance Alerts
@@ -27,6 +33,8 @@ Generate Attendance Reports
 Profile Management
 
 Admin Module
+
+
 Secure Admin Login
 Manage Students
 Manage Teachers
@@ -38,20 +46,31 @@ Database Management
 
 
 Technologies Used
+
+
 Frontend
+
+
 
 HTML5
 CSS3
 JavaScript
 Chart.js (for attendance analytics & graphs)
+
+
 Backend
+
+
 
 Python
 Flask
 Database
 
 MySQL
+
+
 Development Tools
+
 
 Visual Studio Code
 XAMPP
@@ -60,6 +79,8 @@ Git & GitHub
 
 
 Project Structure
+
+
 AttendanceMonitoringSystem/
 │
 ├── static/
@@ -82,6 +103,8 @@ AttendanceMonitoringSystem/
 
 
 Installation
+
+
 1. Clone the Repository
 bash
 git clone https://github.com/yourusername/AttendanceMonitoringSystem.git
@@ -116,6 +139,8 @@ http://127.0.0.1:5000/
 
 
 Project Objectives
+
+
 Automate the student attendance recording process.
 Reduce manual errors and paperwork in attendance management.
 Provide real-time attendance analytics for students, teachers, and admins.
@@ -126,13 +151,19 @@ Enhance efficiency and transparency in campus administration.
 
 
 User Roles
+
+
 Role	Access
+
+
 Student	View attendance, attendance analytics, announcements, profile
 Teacher	Mark attendance, view analytics, generate reports, alerts
 Admin	Full system management, analytics dashboard, and reporting
 
 
 Analytics Highlights
+
+
 Attendance percentage calculation (overall & subject-wise)
 Attendance trend graphs (daily/weekly/monthly)
 Automated at-risk student identification (below threshold %)
@@ -140,6 +171,8 @@ Class-wise and student-wise comparison reports
 Visual dashboards using charts for quick insights
 
 Future Enhancements
+
+
 Mobile Application
 QR Code / Biometric Attendance
 Push Notifications
